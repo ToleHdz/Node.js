@@ -1,5 +1,7 @@
+//requerimos de la libreria de http para crear un server
 var http = require('http');
 
+//creamos el server y lo guardamos en una variable
 var server = http.createServer
 (
 	(request, response) => 
@@ -9,4 +11,9 @@ var server = http.createServer
 	}
 );
 
-server.listen(3000, "localhost", () => {console.log("ya me encendiste onii - chan")});
+//iniciamos el server con un puerto
+server.listen(3000, "localhost", 
+() => 
+{
+	console.log("ya me encendiste onii - chan")
+});
