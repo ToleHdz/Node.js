@@ -11,7 +11,7 @@ var server = http.createServer
 		(error, data) => 					//data es un objeto el cual contiene nuestra pagina web
 		{
 			response.write(data)			//escribe la pagina web
-			response.end(). 				//evita que el navegador siga cargando
+			response.end() 				//evita que el navegador siga cargando
 		});
 	}
 );

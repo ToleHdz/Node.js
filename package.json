@@ -1,0 +1,26 @@
+{
+  "name": "node.js",
+  "version": "1.0.0",
+  "description": "mi api con node",
+  "main": "FileStream.js",
+  "dependencies": {
+    "nodemon": "^1.17.1"
+  },
+  "scripts": {
+    "test": "test",
+    "dev": "nodemon FileStream.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ToleHdz/Node.js.git"
+  },
+  "keywords": [
+    "Node.js"
+  ],
+  "author": "Tole Hdz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ToleHdz/Node.js/issues"
+  },
+  "homepage": "https://github.com/ToleHdz/Node.js#readme"
+}
